@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/shoppingList"
+            android:icon="@drawable/shoppinglist"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/shopFinder"
+            android:icon="@drawable/shopfinder"
+            android:title="Store Finder" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/setlocation"
+                android:icon="@drawable/setlocation"
+                android:title="Set Location" />
+            <item
+                android:id="@+id/signin"
+                android:icon="@drawable/signin"
+                android:title="Sign In" />
+        </menu>
+    </item>
+
+</menu>
