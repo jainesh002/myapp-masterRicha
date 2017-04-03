@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "207380653497",
+    "firebase_url": "https://myapp-a3741.firebaseio.com",
+    "project_id": "myapp-a3741",
+    "storage_bucket": "myapp-a3741.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207380653497:android:31eae2df7508cf3a",
+        "android_client_info": {
+          "package_name": "com.example.aditya.discountfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207380653497-5c8ueqtp47nkg1ndq8q3kta3utepjqdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aditya.discountfeed",
+            "certificate_hash": "8eeb48c450af2d9689f7bba81f906796f78c28ef"
+          }
+        },
+        {
+          "client_id": "207380653497-oogt6ddnuokobvmi9faht7qmubpp39mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPTbICzBrg8rHwJ1QLhdx4xi_tyY-X3qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207380653497-oogt6ddnuokobvmi9faht7qmubpp39mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

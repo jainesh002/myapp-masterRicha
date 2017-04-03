@@ -2,12 +2,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aditya.discountfeed.signIn_fragment">
+    tools:context="com.example.aditya.discountfeed.Signin_fragment"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/loginEmailField"
+        android:hint="Email..." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/loginEmailField"
+        android:layout_alignRight="@+id/loginEmailField"
+        android:layout_alignEnd="@+id/loginEmailField"
+        android:layout_marginTop="15dp"
+        android:id="@+id/loginPasswordField"
+        android:hint="Password..." />
+
+    <Button
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPasswordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/loginBtn" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newAccount"
+        android:layout_marginBottom="15dp"
+        android:text="Need a New Account"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleBtn"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"></com.google.android.gms.common.SignInButton>
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/googleBtn"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:layout_marginTop="14dp"
+        android:paddingBottom="10dp"></com.facebook.login.widget.LoginButton>
+
+    <Button
+        android:id="@+id/action_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:onClick="logout"
+        android:text="Log out" />
+
+
+
+</RelativeLayout>
+
 
 </FrameLayout>

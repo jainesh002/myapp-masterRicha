@@ -26,5 +26,9 @@
                 android:title="Sign In" />
         </menu>
     </item>
+    <item android:title="Set Up Account"
+        android:id="@+id/setUpAccount"
+
+    />
 
 </menu>
