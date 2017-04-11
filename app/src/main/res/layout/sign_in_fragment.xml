@@ -65,16 +65,6 @@
         android:layout_marginTop="14dp"
         android:paddingBottom="10dp"></com.facebook.login.widget.LoginButton>
 
-    <Button
-        android:id="@+id/action_logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="54dp"
-        android:onClick="logout"
-        android:text="Log out" />
-
 
 
 </RelativeLayout>

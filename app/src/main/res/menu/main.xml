@@ -9,4 +9,10 @@
 
 
 </item>
+    <item
+        android:id="@+id/action_logout1"
+        android:orderInCategory="200"
+        android:title="Log Out"
+        app:showAsAction="always"
+        ></item>
 </menu>
